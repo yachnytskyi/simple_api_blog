@@ -2,9 +2,7 @@
 require 'spec_helper'
 require 'shoulda/matchers'
 require 'database_cleaner'
-require 'timecop'
 require 'rake'
-require 'paperclip/matchers'
 require 'rspec/rails'
 
 ENV['RAILS_ENV'] ||= 'test'
@@ -62,7 +60,5 @@ RSpec.configure do |config|
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include Devise::Test::ControllerHelpers, type: :view
 
-  config.include Requests::JsonHelpers, type: :controller
-  
   # [...]
 end
