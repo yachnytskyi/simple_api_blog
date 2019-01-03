@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :post do
-    title { "MyString" }
-    body { "MyText" }
-    category { nil }
+    title { Faker::Lorem.word }
+    body { Faker::Lorem.word }
+    category_id nil
   end
 end

@@ -40,6 +40,8 @@ Shoulda::Matchers.configure do |config|
 end
 
 # [...]
+Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+
 RSpec.configure do |config|
   # [...]
   # add `FactoryBot` methods
@@ -59,6 +61,7 @@ RSpec.configure do |config|
   end
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include Devise::Test::ControllerHelpers, type: :view
+  config.include RequestSpecHelper, type: :request
 
   # [...]
 end
