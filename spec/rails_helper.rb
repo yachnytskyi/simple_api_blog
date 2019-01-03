@@ -2,9 +2,7 @@
 require 'spec_helper'
 require 'shoulda/matchers'
 require 'database_cleaner'
-require 'timecop'
 require 'rake'
-require 'paperclip/matchers'
 require 'rspec/rails'
 
 ENV['RAILS_ENV'] ||= 'test'
@@ -42,6 +40,8 @@ Shoulda::Matchers.configure do |config|
 end
 
 # [...]
+Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+
 RSpec.configure do |config|
   # [...]
   # add `FactoryBot` methods
@@ -61,8 +61,7 @@ RSpec.configure do |config|
   end
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include Devise::Test::ControllerHelpers, type: :view
+  config.include RequestSpecHelper, type: :request
 
-  config.include Requests::JsonHelpers, type: :controller
-  
   # [...]
 end
