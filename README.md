@@ -38,8 +38,8 @@ http://localhost:3000
 
 The basic CRUD interface to SBA.
 
-You can:
-get all posts to /categories:id/products (GET format),
+You can:  
+get all posts to /categories:id/products (GET format),  
 show one post to /categories:id/posts/:id(.:format GET),
 create post to /categories:id/products(.:format POST),         
 update post to /categories:id/products/:id(.:format Patch or Put), 
