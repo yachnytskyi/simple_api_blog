@@ -1,24 +1,44 @@
-# README
+Simple api blog (sab) created on Ruby on Rails 
+Thanks for viewing the sab, it was created for learning and practice. Sab - a simple pet project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Build Status
 
-Things you may want to cover:
+Sab version 1.1
 
-* Ruby version
+INSTALLATION
 
-* System dependencies
+Please make sure the release file is unpacked under a Web-accessible directory. You shall see the following files and directories:
 
-* Configuration
+app/  
+bin/  
+config/  
+db/  
+lib/  
+log/  
+public/  
+storage/  
+test/  
+tmp/  
+vendor/  
+.gitignore  
+.ruby-version  
+Gemfile  
+Gemfile.lock  
+GuardFile  
+README.md  
+Rakefile  
+config.ru  
+nano.save  
+package.json
 
-* Database creation
+REQUIREMENTS
 
-* Database initialization
+The minimum requirement by Sba is that your Web server supports Ruby 2.5 or above, and Rails 5.1 or above. The sba has been tested with the embedded Rails HTTP server in Ubuntu. Please access the following URL to check if your Web server reaches the requirements by Sba:
 
-* How to run the test suite
+http://localhost:3000
 
-* Services (job queues, cache servers, search engines, etc.)
+QUICK START
 
-* Deployment instructions
+The Sba starts from its root folder. When you first start, enter "bundle install" (all necessary gems will be installed). The server is started by the rails s command (or rails server)
 
-* ...
+Kostyantyn Yachnytskyi yachnytskyi1992@gmail.com
