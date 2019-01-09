@@ -13,14 +13,15 @@ app/
 bin/  
 config/  
 db/  
-lib/  
+lib/tasks  
 log/  
-public/  
+public/ 
+spec/
 storage/  
-test/  
 tmp/  
 vendor/  
 .gitignore  
+.rspec
 .ruby-version  
 Gemfile  
 Gemfile.lock  
@@ -28,8 +29,6 @@ GuardFile
 README.md  
 Rakefile  
 config.ru  
-nano.save  
-package.json
 
 REQUIREMENTS
 
