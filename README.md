@@ -32,12 +32,12 @@ config.ru
 
 REQUIREMENTS
 
-The minimum requirement by Sba is that your Web server supports Ruby 2.5 or above, and Rails 5.1 or above. The sba has been tested with the embedded Rails HTTP server in Ubuntu. Please access the following URL to check if your Web server reaches the requirements by Sba:
+The minimum requirement by SAB is that your Web server supports Ruby 2.5 or above, and Rails 5.1 or above. The sab has been tested with the embedded Rails HTTP server in Ubuntu. Please access the following URL to check if your Web server reaches the requirements by SAB:
 
 http://localhost:3000
 
 QUICK START
 
-The Sba starts from its root folder. When you first start, enter "bundle install" (all necessary gems will be installed). The server is started by the rails s command (or rails server)
+The SAB starts from its root folder. When you first start, enter "bundle install" (all necessary gems will be installed). The server is started by the rails s command (or rails server)
 
 Kostyantyn Yachnytskyi yachnytskyi1992@gmail.com
