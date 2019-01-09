@@ -40,16 +40,16 @@ The basic CRUD interface to SBA.
 
 You can:  
 get all posts to /categories:id/products (GET format),  
-show one post to /categories:id/posts/:id(.:format GET),
-create post to /categories:id/products(.:format POST),         
-update post to /categories:id/products/:id(.:format Patch or Put), 
+show one post to /categories:id/posts/:id(.:format GET),  
+create post to /categories:id/products(.:format POST),  
+update post to /categories:id/products/:id(.:format Patch or Put),  
 delete post to /categories:id/posts/:id(.:format Delete)  
   
-get all categories to /categories (GET format),
-show one category to /categories:id(.:format GET),
-create category to /categories(.:format POST),         
-update category to /categories:id(.:format Patch or Put), 
-delete category to /categories:id(.:format Delete) 
+get all categories to /categories (GET format),  
+show one category to /categories:id(.:format GET), 
+create category to /categories(.:format POST),       
+update category to /categories:id(.:format Patch or Put),  
+delete category to /categories:id(.:format Delete)  
 
 Prefix Verb URI Pattern Controller#Action  
 
