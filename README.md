@@ -1,4 +1,4 @@
-Simple api blog (sab) created on Ruby on Rails and RSpec ( for testing )
+Simple api blog (sab) created on Ruby on Rails and RSpec ( for testing )  
 Thanks for viewing the sab, it was created for learning and practice. Sab - a simple pet project with RSpec
 
 Build Status
